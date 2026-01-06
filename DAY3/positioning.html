@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: aquamarine;
+            height :2000px;
+        }
+        .box{
+            background-color: beige;
+            height: 1000px;
+
+        }
+        .im1{
+            /* no changes occur in the static positioning */
+            position: static;
+            left: 100px;
+            right: 200px;
+        }
+        .im2{
+             position: absolute;
+             top: 200px;
+             left:100px ;
+             width: 100px;
+        }
+        .im3{
+             position: fixed;
+             top: 300px;
+             left: 300px;
+        }
+        .im4{
+             position: relative;
+             top: 400px;
+             left: 400px;
+        }
+        .im5{
+             position: sticky;
+             top: 450px;
+             left: 500px;
+        }
+        .parent {
+  position: relative;
+  /* top: 100px; */
+  width: 400px;
+  height: 400px;
+  background: lightblue;
+}
+
+.child {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: red;
+}
+
+    </style>
+</head>
+<body>
+    <div class="parent">
+  Parent
+  <div class="child">Child</div>
+</div>
+
+    <div class="container">
+        <img class="im1" src="image.png" alt="poster1">
+        <img class="im2"src="image2.png" alt="poster1">
+        <img class="im3"src="image3.png" alt="poster1">
+        <img class="im4"src="image.png" alt="poster1">
+        <img class="im5"src="image2.png" alt="poster1">
+    </div>
+    <div class="box">
+
+    </div>
+</body>
+</html>

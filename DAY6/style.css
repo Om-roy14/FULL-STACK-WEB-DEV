@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding:  0px;
+    box-sizing: border-box;
+
+}
+.box{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.container{
+    width: 300px;
+    height: 300px;
+    /* margin: auto; */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: bisque;
+}
+div{
+    /* transform: scaleX(1.1); */
+    /* transform: matrix(1, -0.3, 0, 1, 0, 0); */
+    /* transform: translate(50px, 100px); */
+    /* transform: rotate(200deg); */
+    /* transform: scaleX(1.2); */
+    /* transform: scaleY(1.2); */
+    /* transform: scale(1.1); */
+    /* transform: skewX(5deg); */
+    /* transform: skewY(5deg); */
+    background-color: #fff;
+    /* transform: skew(5deg); */
+      transform: rotateX(50deg) rotateY(50deg) rotateZ(50deg);
+}

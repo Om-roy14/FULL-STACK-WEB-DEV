@@ -1,0 +1,22 @@
+.box{
+    background-color: greenyellow;
+    width : 200px;
+    height: 200px;
+    margin: auto;
+    text-align: center;
+    animation-name: zoom;
+    animation-duration: 4s;
+}
+@keyframes zoom {
+    from{
+        background-color: greenyellow;
+        transform: scale(1.1);
+    }
+    to{
+        background-color: yellow;
+        transform: translate(200px);
+        transition: all;
+        transition:linear;
+         
+    }
+}

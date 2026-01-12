@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    height: 50px;
+    display: flex;
+ background-image: linear-gradient(to right top, #ab91dc, #919fe9, #75abf0, #59b6f0, #46c0eb, #36b4df, #23a9d4, #009dc8, #007ab3, #005799, #00357a, #1a1157);
+    justify-content: space-between;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.3s linear 0s ;
+}
+nav:hover{
+    transform: scale(1.1);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+main{
+    background-color: rgb(161, 177, 206);
+    height: 100vh;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+background-image: linear-gradient(to right top, #ab91dc, #919fe9, #75abf0, #59b6f0, #46c0eb, #36b4df, #23a9d4, #009dc8, #007ab3, #005799, #00357a, #1a1157);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  /* background-color: red; */
+  color: rgb(8, 8, 8);
+  text-align: center;
+
+}
+.box{
+    margin: 20px;
+    background-color: azure;
+    padding: 50px;
+    border: 2px solid black;
+    margin: auto;
+    width: 100vw;
+    height: auto;
+    display: flex;
+flex-direction: column;
+
+}
+.item{
+    display: flex;
+
+}
+.leftbox{
+    width: 75%;
+    transition: all 0.3s linear 0s ;
+
+}
+.leftbox:hover{
+    transform:scaleY(1.1);
+}
+.rightbox{
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    transition: all 0.3s linear 0s ;
+}
+.rightbox:hover{
+    transform: scale(1.1);
+}
+ol{
+
+    list-style: none;
+}
+h3{
+    padding: 10px;
+    font-size: 2rem;
+}
+    
+/* .overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition:  all 0.5s linear 0s;
+  background-color: #4f5253;
+}
+
+.rightbox:hover .overlay {
+  opacity: 0.6;
+}    */
+    
